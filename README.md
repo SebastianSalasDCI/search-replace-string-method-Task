@@ -47,6 +47,11 @@ For this task we will practice the selectors for the elements in the html docume
   * Now we have to assign the correct class to the alert. In this case,  use the `classList.add()` method from the element to add a classes `alert` and `alert-danger` as the search word should not be empty.
   * Also to prevent confusion with the classes, remove the previous class that could be in the alert. For this use `classList.remove()` and inside the parenthesis the class we want to remove. In this case will be `alert-success`, in case a success alert appeared before.
 
+***EXTRA CHALLENGE:*** 
+Now, each time the user searchs for a word this word will be highlighted in the paragraph. Create two new functions called `markText` and `clean`. The `markText` function should highlight the searchWord in the paragraph. The `clean` function should delete all the highlights that are in the text.
+
+Use these functions in a manner so that when the user searchs for a word, this word is highlighted in the paragraph. Then when the user searchs for another word, the previous highlighted word should not be highlighted anymore, instead the new searchWord should be highlighted. 
+
 **Images**:
 
 ![alt text](./images/original.png "Original")
@@ -54,7 +59,7 @@ For this task we will practice the selectors for the elements in the html docume
 ![alt text](./images/2.png "Example of message")
 ![alt text](./images/3.png "Example of message")
 ![alt text](./images/4.png "Example of message")
-
+![alt text](./images/5.png "Example of challenge")
 
 **Notes**:
 * Follow the instructions to perform the task. You can add any additional styling or functionality.
